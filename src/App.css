@@ -12,7 +12,7 @@
 }
 
 .classeun {
-  /* border: 1px solid #1e456a; */
+  border: 1px solid #1e456a;
   width: 40%;
 
 }
@@ -67,7 +67,7 @@
   display: flex;
   flex-direction: row;
  color: #FFFF;
-  border: 1px solid #aeabab;
+  border: 1px solid #4a4646;
   height: 60px;
   justify-content: space-between;
   padding-bottom: 5px;
@@ -88,7 +88,7 @@ font-weight: bold;
 }
 
 .profilepremier {
-  border: 1px solid #aeabab;
+  border: 1px solid #4a4646;
   color: #FFFF;
   display: flex;
 }
@@ -96,7 +96,7 @@ font-weight: bold;
 .classetrois {
  
   color: #FFFF;
-  border: 1px solid #aeabab;
+  border: 1px solid #4a4646;
   gap: 1rem;
   padding: 1rem;
 
@@ -160,11 +160,11 @@ color: #888282;
   display: flex;
   flex-direction: row;
   padding-top: 30px;
-  gap: 5px;
+  gap: 10px;
 }
 
 .bouton-deux {
-  padding-left: 450px;
+  padding-left: 420px;
   width: 40%;
   height: 40px;
 }
@@ -208,14 +208,13 @@ color: #888282;
   background-color: rgb(22, 23, 31);
   border-radius: 30px;
   padding: 5px;
-  width: 160%;
+  width: 120%;
   height: 42px;
 
 }
 
 .nav-input {
   width: 80%;
-  color: white;
   height: 30px;
   background-color: rgb(22, 23, 31);
 }
@@ -274,7 +273,7 @@ color: #aeabab;
 
 .ul {
   padding-top: 20px;
-  width: 155%;
+  width: 123%;
   color: #FFFF;
   padding-left: 5px;
 
@@ -292,20 +291,27 @@ color: #aeabab;
   display: flex;
 }
 
+
 .Follow {
 width: 170%;
 height: 30px;
 border-radius: 25px;
 }
 
-.dernier-bloc{
-  color: #FFFF;
+
+.bloc-dernier{
+  display: flex;
+  color: #ffffff;
   background-color: rgb(22, 23, 31);
-  border: 1px solid #aeabab;
-  width: 150%;
+  width: 120%;
   border-radius: 10px;
-  padding-top: 20px;
   padding-left: 20px;
+
+}
+
+.bloc-final{
+padding-top: 20px;
+
 }
 .colone-noir{
   display: flex;
@@ -351,3 +357,22 @@ color: #aeabab;}
 
 .Twitter-{
 color: #aeabab;}
+
+.text-dernier-un-deux{
+display: flex;
+padding-top: 25px;
+
+}
+.text-dernier{
+  display: flex;
+  flex-direction: row;
+  color: #817878;
+  padding-top: 5px;
+  gap: 5px;
+}
+.text-dernier-un{
+  display: flex;
+  flex-direction: row;
+  color: #969090;
+  padding-top: 5px;
+gap: 10px;}

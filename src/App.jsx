@@ -55,18 +55,15 @@ function App() {
               <div className='bare-text'>
                 <span>Bradley Ortiz</span>
                 <p>@bradley_</p>
-
               </div>
-              
             </div>
-
           </div>
         </div>
         <div className='classeun'>
           <div className='home'>
             <span>Home</span>
             <div>
-            <img className='img-etoile' src="src/images/Timeline-Prop.svg" alt="" />
+              <img className='img-etoile' src="src/images/Timeline-Prop.svg" alt="" />
 
             </div>
           </div>
@@ -88,7 +85,7 @@ function App() {
               </div>
             </div>
           </div>
-          <Like image={Noir} source="The New Yorks Times"  text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, deleniti laudantium itaque minima magnam praesentium error aperiam architecto ipsam vitae minus sint, et tempore fuga? Repudiandae delectus aperiam consequuntur id." reply="19" reacted="46" share="468" ></Like>
+          <Like source="The New Yorks Times" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, deleniti laudantium itaque minima magnam praesentium error aperiam architecto ipsam vitae minus sint, et tempore fuga? Repudiandae delectus aperiam consequuntur id." reply="19" reacted="46" share="468" ></Like>
 
           <Like image={Fleure} avatar={Cnn} source="CNN" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, deleniti laudantium itaque minima magnam praesentium error aperiam architecto ipsam vitae minus sint, et tempore fuga? Repudiandae delectus aperiam consequuntur id." reply="19" reacted="46" share="468" ></Like>
 
@@ -97,7 +94,6 @@ function App() {
           <div className='nav'>
             <img src={Search} alt="" />
             <input className='nav-input' type="text" placeholder='Serach Twitter' />
-
           </div>
           <div className='ul'>
             <ul className='ul-un'>
@@ -134,55 +130,84 @@ function App() {
               </div>
             </ul>
           </div>
-
-          <div className=' dernier-bloc'>
-            <ul className='bloc-ul'>
-              <div className='ul-Who'>
-                <span>Who to follow</span>
-              </div>
-              <div className='noir-bloc'>
-                <div className='colone-noir'>
+          <div className='bloc-final'>
+            <div className='bloc-dernier'>
+              <ul className='bloc-ul'>
+                <div className='ul-Who'>
+                  <span>Who to follow</span>
+                </div>
+                <div className='colone-cnn'>
                   <img src={Noir} alt="" />
                   <div>
-                    <p>The New York Times</p>
-                    <img src="src/images/Verified.svg" alt="" />
-                    <p className='nytimes'>@nytimes</p>
+                    <div>
+                      <span >The New York Times</span>
+                      <img src="src/images/Verified.svg" alt="" />
+                    </div>
+                    <p className='cnn'>@nytimes</p>
                   </div>
                   <div >
-                  <button className='Follow'>Follow</button>
+                    <button className='Follow'>Follow</button>
                   </div>
-
                 </div>
-
-
-              </div>
-              <div className='colone-cnn'>
-                <img src={Cnn} alt="" />
-                <div>
-                  <span>CNN</span>
-                  <img src="src/images/Verified.svg" alt="" />
-                  <p className='cnn'>@cnn</p>
-                </div>
-                <div >
-                  <button className='Follow'>Follow</button>
+                <div className='colone-cnn'>
+                  <img src={Cnn} alt="" />
+                  <div>
+                    <div>
+                      <span >CNN</span>
+                      <img src="src/images/Verified.svg" alt="" />
+                    </div>
+                    <p className='cnn'>@cnn</p>
                   </div>
-              </div>
-
-              <div className='colone-twiter'>
-                <img src="src/images/twiterbleu.svg" alt="" />
-                <div>
-                  <p>Twitter</p>
-                  <img src="src/images/Verified.svg" alt="" />
-                  <p className='Twitter-'>@Twitter</p>
-                </div>
-                <div>
-                  <button className='Follow'>Follow</button>
+                  <div >
+                    <button className='Follow'>Follow</button>
                   </div>
+                </div>
+                <div className='colone-cnn'>
+                  <img src="src/images/twiterbleu.svg" alt="" />
+                  <div>
+                    <div>
+                      <span >Twitter</span>
+                      <img src="src/images/Verified.svg" alt="" />
+                    </div>
+                    <p className='cnn'>@Twitter</p>
+                  </div>
+                  <div >
+                    <button className='Follow'>Follow</button>
+                  </div>
+                </div>
+                <div className='show-more'>
+                  <span>Show more</span>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div >
+            <div className='text-dernier-un-deux'>
+              <div className='text-dernier-un'>
+                <span>Terms of Service</span>
               </div>
-              <div className='show-more'>
-                <span>Show more</span>
+              <div>
+                <span className='text-dernier'>Privacy Policy</span>
               </div>
-            </ul>
+              <div>
+                <span className='text-dernier'>Cookie Policy</span>
+              </div>
+            </div>
+            <div className='text-dernier'>
+              <div>
+                <span>Imprint</span>
+              </div>
+              <div>
+                <span>Ads info</span>
+              </div>
+              <div>
+                <span>More ...</span>
+              </div>
+              <div>
+                <span>© 2021 Twitter, Inc.</span>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
