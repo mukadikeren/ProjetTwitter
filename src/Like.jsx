@@ -128,24 +128,28 @@ function Like(props) {
         <div className="class-trois-1">
 
           <img src="src/images/cnn.svg" alt="" />
+          <div className="class-trois-1-cnn-ligne">
+            <p className="class-trois-1-cnn">CNN </p>
+            <div>
+              <img src="src/images/Verified.svg" alt="" />
 
-          <p> {props.source} </p>
-          
-          <img src="src/images/Verified.svg" alt="" />
-          <p className="CNN-text">@CNN</p>
-          <p className="CNN-text">. 27min</p>
+            </div>
+          </div>
+          <div className="cnn-27">
+            <div>
+            </div>
+            <p> @CNN </p>
+            <div> <p>.27min</p></div>
 
+          </div>
         </div>
-       
+        <p className="text-lorem">President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.</p>
       </div>
-
-
-
       <div className='like'>
         <span>{props.text}</span>
         <div className='fleure'>
 
-          <img src={props.image} alt="" />
+          {<img src={props.image} alt="" />}
           {/* <p>President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.</p> */}
         </div>
 

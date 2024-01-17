@@ -3,7 +3,6 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Profil from "./images/Profile-Photo.svg"
-import Fleure from "./images/image-3.png"
 import Cnn from "./images/cnn.svg"
 import Noir from "./images/noir-blanc.svg"
 import Tweeter from "./images/Twitter.svg"
@@ -16,7 +15,6 @@ import Poll from "./images/Poll.svg"
 import Gif from "./images/Gif.svg"
 import Emoji from "./images/Emoji.svg"
 import Schedule from "./images/Schedule.svg"
-import Twiter from "./images/twiterbleu.svg"
 import Notification from "./images/Notifications.svg"
 import Bookmarks from "./images/Bookmarks.svg"
 import Groupe from "./images/Groupe.svg"
@@ -25,6 +23,9 @@ import Search from "./images/Search.svg"
 import Navlink from './contenair'
 import Incone from './Incone'
 import Like from './Like'
+import File from './File'
+import Trend from './Trends'
+
 
 
 function App() {
@@ -72,7 +73,7 @@ function App() {
               <img src={Profil} />
             </div>
             <div className="sticker">
-              <span>What't happening?</span>
+              <span className='What-happening'>What't happening?</span>
               <div className='media'>
                 <Incone image={Media} />
                 <Incone image={Gif} />
@@ -85,9 +86,11 @@ function App() {
               </div>
             </div>
           </div>
-          <Like source="The New Yorks Times" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, deleniti laudantium itaque minima magnam praesentium error aperiam architecto ipsam vitae minus sint, et tempore fuga? Repudiandae delectus aperiam consequuntur id." reply="19" reacted="46" share="468" ></Like>
+          <Like></Like>
+          <File></File>
+          {/* <Like source="The New Yorks Times" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, deleniti laudantium itaque minima magnam praesentium error aperiam architecto ipsam vitae minus sint, et tempore fuga? Repudiandae delectus aperiam consequuntur id." reply="19" reacted="46" share="468" ></Like>
 
-          <Like image={Fleure} avatar={Cnn} source="CNN" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, deleniti laudantium itaque minima magnam praesentium error aperiam architecto ipsam vitae minus sint, et tempore fuga? Repudiandae delectus aperiam consequuntur id." reply="19" reacted="46" share="468" ></Like>
+          <Like image={Fleure} avatar={Cnn} source="CNN" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, deleniti laudantium itaque minima magnam praesentium error aperiam architecto ipsam vitae minus sint, et tempore fuga? Repudiandae delectus aperiam consequuntur id." reply="19" reacted="46" share="468" ></Like>  */}
 
         </div>
         <div className='bare-recherche'>
@@ -105,25 +108,50 @@ function App() {
                   </div>
                 </div>
                 <div className='Trending-1'>
+                  <div className='Trending-enligne'>
                   <p>Trending in Turkey</p>
+                  <div>
+                  <img src= "src/images/More-2.svg" alt="" />
+                  </div>
+                  </div>
                   <span className='SQUID'>#SQUID</span>
-                  <p>2,066 Tweets</p>
+                  <p>2,066 Tweets</p>  
                 </div>
-                <div className='Trending-2'>
+
+                <div className='Trending-1'>
+                  <div className='Trending-enligne'>
                   <p>Trending in Turkey</p>
+                  <div>
+                  <img src= "src/images/More-2.svg" alt="" />
+                  </div>
+                  </div>
                   <span className='SQUID'>#SQUID</span>
-                  <p>2,066 Tweets</p>
+                  <p>2,066 Tweets</p>  
                 </div>
-                <div className='Trending-3'>
+
+                <div className='Trending-1'>
+                  <div className='Trending-enligne'>
                   <p>Trending in Turkey</p>
+                  <div>
+                  <img src= "src/images/More-2.svg" alt="" />
+                  </div>
+                  </div>
                   <span className='SQUID'>#SQUID</span>
-                  <p>2,066 Tweets</p>
+                  <p>2,066 Tweets</p>  
                 </div>
-                <div className='Trending-4'>
+
+                <div className='Trending-1'>
+                  <div className='Trending-enligne'>
                   <p>Trending in Turkey</p>
+                  <div>
+                  <img src= "src/images/More-2.svg" alt="" />
+                  </div>
+                  </div>
                   <span className='SQUID'>#SQUID</span>
-                  <p>2,066 Tweets</p>
+                  <p>2,066 Tweets</p>  
                 </div>
+
+              
                 <div className='show-more'>
                   <span>Show more</span>
                 </div>
@@ -181,37 +209,11 @@ function App() {
               </ul>
             </div>
           </div>
-          <div >
-            <div className='text-dernier-un-deux'>
-              <div className='text-dernier-un'>
-                <span>Terms of Service</span>
-              </div>
-              <div>
-                <span className='text-dernier'>Privacy Policy</span>
-              </div>
-              <div>
-                <span className='text-dernier'>Cookie Policy</span>
-              </div>
-            </div>
-            <div className='text-dernier'>
-              <div>
-                <span>Imprint</span>
-              </div>
-              <div>
-                <span>Ads info</span>
-              </div>
-              <div>
-                <span>More ...</span>
-              </div>
-              <div>
-                <span>© 2021 Twitter, Inc.</span>
-              </div>
-            </div>
-
-          </div>
+          <Trend></Trend>
+         
         </div>
       </div>
-
+     
     </>
   )
 }
