@@ -1,5 +1,5 @@
-export default function Text(){
-    return(
+export default function Text() {
+  return(
         <div className='bloc-final'>
             <div className='bloc-dernier'>
               <ul className='bloc-ul'>
@@ -53,3 +53,4 @@ export default function Text(){
           </div>
     )
 }
+export default Text

@@ -139,7 +139,7 @@ function Like(props) {
             <div>
             </div>
             <p> @CNN </p>
-            <div> <p>.27min</p></div>
+            <div> <p> . 27min</p></div>
 
           </div>
         </div>
@@ -150,7 +150,6 @@ function Like(props) {
         <div className='fleure'>
 
           {<img src={props.image} alt="" />}
-          {/* <p>President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.</p> */}
         </div>
 
         <div className='image-cnn'>
@@ -171,7 +170,7 @@ function Like(props) {
         </div>
 
       </div>
-
+      {/* { JSON.stringify(nav)} */}
     </div>
     // ))
 

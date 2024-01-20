@@ -14,15 +14,17 @@ export default function File() {
                         <p>@nytimes</p>
                     </div>
                     <div className="nytimes-2h">
-                            <p>.2h</p>
-                        </div>
+                        <p>.2h</p>
+                    </div>
                 </div>
 
                 <div className="logo-en-noir">
-                        <p>Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land</p>
+                    <p>Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land</p>
                 </div>
                 <div className="fleure">
-                    <img src="src/images/image-3.png" alt="" />
+                    {/* <img src="src/images/image-3.png" alt="" /> */}
+                    <img src="src/images/Keren.png" alt="" />
+
                 </div>
 
 

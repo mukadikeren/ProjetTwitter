@@ -1,20 +1,25 @@
+@font-face {
+  font-family: "keren";
+  src: url(./images/SFPRODISPLAYMEDIUM.OTF);
+}
+
 * {
   padding: 0px;
   margin: 0px;
+  font-family: Keren;
 }
+
 
 .contenair-central {
   display: flex;
   width: 100%;
-  gap: 15px;
+  gap: px;
   background-color: black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 .classeun {
-  border: 1px solid #6a1e24;
-  width: 40%;
+  width: 35%;
 
 }
 
@@ -30,25 +35,26 @@
 .contenairpremiere-1 {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  gap: 30px;
-  padding-left: 190px;
+  width: 130%;
+  gap: 40px;
+  font-size: large;
+  padding-left: 260px;
 
 }
 
 .bouton {
-  width: 60%;
+  width: 50%;
   height: 40px;
 }
 
 .bare-2 {
   display: flex;
-  padding-top: 250px;
+  padding-top: 140px;
 
 }
 
 .contenairtrois {
-  /* border: 1px solid #c50c0c; */
+  border: 1px solid #2427bb;
   width: 25%;
 
 }
@@ -63,7 +69,8 @@
 
 
 }
-.What-happening{
+
+.What-happening {
   color: #a29a9a;
 
 }
@@ -71,15 +78,33 @@
 .home {
   display: flex;
   flex-direction: row;
- color: #FFFF;
-  border: 1px solid #4a4646;
+  color: #FFFF;
+  border: 1px solid #1e1a1a;
   height: 60px;
   justify-content: space-between;
   padding-bottom: 5px;
-font-weight: bold;
+  font-weight: bold;
 }
-.home-whidth{
+
+.home-whidth {
   width: 50%;
+}
+
+.bare-text {
+  padding-left: 15px;
+}
+
+.photo-du-bas {
+  display: flex;
+
+}
+
+.MORE {
+  padding-left: 0px;
+}
+
+.bradley_ {
+  color: #6d6a6a;
 }
 
 .sticker {
@@ -93,48 +118,50 @@ font-weight: bold;
 }
 
 .profilepremier {
-  border: 1px solid #4a4646;
+  border: 1px solid #282626;
   color: #FFFF;
   display: flex;
 }
 
 .classetrois {
- 
+
   color: #fffdfd;
-  border: 1px solid #4a4646;
+  border: 1px solid #282626;
   gap: 1rem;
   padding: 1rem;
 
 }
-.class-trois-1-cnn-ligne{
-display: flex;
+
+.class-trois-1-cnn-ligne {
+  display: flex;
 }
-.cnn-27{
+
+.cnn-27 {
   display: flex;
   color: #6d6a6a;
 }
-.text-lorem{
-padding-left: 55px;
-color: #d8d5d5;
+
+.text-lorem {
+  padding-left: 55px;
+  color: #d8d5d5;
 }
 
-.class-trois-1-cnn{
+.class-trois-1-cnn {
   color: #ffffff;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
   padding-left: 5px;
 }
-/* .avatar{
-} */
 
-.CNN-text{
-padding-left: 5px;
-color: #888282;
+.CNN-text {
+  padding-left: 5px;
+  color: #888282;
 }
 
-.class-trois-1{
+.class-trois-1 {
   display: flex;
 }
+
 .image-cnn {
   display: flex;
   padding-top: 20px;
@@ -142,16 +169,17 @@ color: #888282;
 }
 
 .class-quatre {
-  border: 1px solid #3f3a89;
+  border: 1px solid #282626;
   color: #FFFF;
 }
-.flex-bloc-noir-blanc{
+
+.flex-bloc-noir-blanc {
   display: flex;
   padding-top: 10px;
 }
 
 
-.logo-en-noir{
+.logo-en-noir {
   display: flex;
   flex-direction: column;
   color: #FFFF;
@@ -159,7 +187,7 @@ color: #888282;
 
 }
 
-.text-du-logo-noir{
+.text-du-logo-noir {
   display: flex;
 }
 
@@ -167,22 +195,23 @@ color: #888282;
   display: flex;
   padding-left: 65px;
   padding-top: 5px;
+
 }
 
-.nytimes-2h{
+.nytimes-2h {
   color: #6d6a6a;
 }
 
 .fleure img {
-  /* width: 100%; */
   border-radius: 1rem;
+  width: 90%;
 }
 
 .text-fleure {
   display: flex;
-gap: 25px;  
-padding-left: 75px;
-padding-top: 20px;
+  gap: 25px;
+  padding-left: 75px;
+  padding-top: 20px;
 }
 
 .twiter {
@@ -210,16 +239,17 @@ padding-top: 20px;
 }
 
 .bouton-deux {
-  padding-left: 420px;
+  padding-left: 310px;
   width: 40%;
   height: 40px;
+  padding-bottom: 5px;
 }
 
 .tweeter-deux {
-  background-color: #1D9BF0;
+  background-color: #00aaff;
   color: #FFFF;
-  width: 150%;
-  height: 30px;
+  width: 170%;
+  height: 40px;
   border-radius: 25px;
   justify-content: end;
 }
@@ -249,12 +279,12 @@ padding-top: 20px;
 .nav {
   display: flex;
   justify-content: center;
+  /* padding-left: 20%; */
   align-items: center;
-  gap: 10px;
-  background-color: rgb(22, 23, 31);
+  background-color: rgb(13, 15, 37);
   border-radius: 30px;
   padding: 5px;
-  width: 120%;
+  width: 110%;
   height: 42px;
 
 }
@@ -262,75 +292,78 @@ padding-top: 20px;
 .nav-input {
   width: 80%;
   height: 30px;
-  background-color: rgb(22, 23, 31);
+  background-color: rgba(19, 22, 47, 0.625);
+
 }
 
 .contenairtrois {
-  padding-left: 45px;
-  display: flex;
+  padding-left: 60px;
 
 }
 
 input {
-  background-color: black;
+  background-color: rgb(9, 9, 9);
 }
 
 .ul-un {
   padding-left: 20px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(22, 23, 31);
+  background-color: rgb(15, 18, 34);
   border-radius: 10px;
 
 }
 
-.text-option{
+.text-option {
   padding-top: 5px;
 }
-.show-more{
+
+.show-more {
   color: #1D9BF0;
-font-weight: bold;
-padding-top: 10px;
-}
-
-.Trending-1{
-  font-weight: bold;
-padding-top: 10px;
-color: #aeabab;
-}
-.Trending-2{
   font-weight: bold;
   padding-top: 10px;
-  color: #aeabab;
 }
 
-.Trending-3{
+.Trending-1 {
   font-weight: bold;
-  padding-top: 10px;
-  color: #aeabab;
+  padding-top: 20px;
+  color: #5f5b5b;
 }
 
-.Trending-4{
+.Trending-2 {
   font-weight: bold;
-  padding-top: 10px;
-  color: #aeabab;
+  padding-top: 20px;
+  color: #434040;
 }
-.Trending-enligne{
+
+.Trending-3 {
+  font-weight: bold;
+  padding-top: 20px;
+  color: #464444;
+}
+
+.Trending-4 {
+  font-weight: bold;
+  padding-top: 20px;
+  color: #5f5959;
+}
+
+.Trending-enligne {
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
 }
-
 
 .ul {
-  padding-top: 20px;
-  width: 123%;
-  color: #FFFF;
-  padding-left: 5px;
+  padding-top: 30px;
+  width: 97%;
+  /* color: #a22222; */
+  padding-left: 30px;
 
 }
 
 .option {
-  justify-content: right;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   flex-direction: column;
   gap: 10px;
@@ -338,48 +371,44 @@ justify-content: space-between;
 
 .img-option {
   justify-content: end;
-  display: flex;
 }
 
 
 .Follow {
-width: 170%;
-height: 30px;
-border-radius: 25px;
+  justify-content: end;
+  width: 220%;
+  height: 40px;
+  border-radius: 25px;
+
 }
 
+.classe-pour-follow {
+  padding-left: 107px;
 
-.bloc-dernier{
+}
+
+.classe-pour-follow-3 {
+  padding-left: 93px;
+
+}
+
+.bloc-dernier {
   display: flex;
   color: #ffffff;
-  background-color: rgb(22, 23, 31);
-  width: 120%;
+  background-color: rgb(12, 15, 30);
+  width: 100%;
   border-radius: 10px;
   padding-left: 20px;
 
 }
 
-.bloc-final{
-padding-top: 20px;
-
-}
-.colone-noir{
-  display: flex;
-flex-direction: row;
-gap: 15px;
-padding-top: 20px;
+.bloc-final {
+  padding-top: 30px;
+  padding-left: 30px;
 
 }
 
-.colone-cnn{
-  display: flex;
-flex-direction: row;
-gap: 15px;
-padding-top: 20px;
-
-}
-
-.colone-twiter{
+.colone-noir {
   display: flex;
   flex-direction: row;
   gap: 15px;
@@ -387,42 +416,136 @@ padding-top: 20px;
 
 }
 
+.colone-cnn {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding-top: 20px;
+
+}
+
+.colone-twiter {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  /* padding-top: 20px; */
+
+}
 
 .noir-bloc {
   padding-top: 10px;
 }
-.ul-Who{
+
+.ul-Who {
   font-weight: bold;
   padding-top: 10px;
   color: #FFFF;
 }
-.SQUID{
-color: #FFFF;
+
+.SQUID {
+  color: #FFFF;
 }
 
-.nytimes{
-color: #aeabab;}
-.cnn{
-color: #aeabab;}
+.nytimes {
+  color: #6f6969;
+}
 
-.Twitter-{
-color: #aeabab;}
+.cnn {
+  color: #565555;
+}
 
-.text-dernier-un-deux{
-display: flex;
-padding-top: 25px;
+.Twitter- {
+  color: #aeabab;
+}
+
+.text-dernier-un-deux {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 30px;
+  
 
 }
-.text-dernier{
+
+.text-dernier {
   display: flex;
   flex-direction: row;
-  color: #817878;
+  color: #4f4949;
   padding-top: 5px;
   gap: 5px;
+  padding-left: 30px;
 }
-.text-dernier-un{
+
+.text-dernier-un {
   display: flex;
   flex-direction: row;
-  color: #969090;
+  color: #474444;
   padding-top: 5px;
-gap: 10px;}
+  gap: 10px;
+  /* padding-left: 30px; */
+}
+
+/* .img-keren{
+
+  width: 30%;
+  height: 1px;
+} */
+.Profile-timeline {
+  color: #FFFF;
+  width: 35%;
+  border: 1px solid #4e4c4c;
+
+}
+
+.raduis {
+  border-radius: 50px;
+  padding-left: 40px;
+
+}
+
+.profile-color {
+  color: #514f4f;
+  padding-top: 10px;
+}
+
+.profile-following {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 10px;
+
+}
+
+.profiles-color {
+  color: #514f4f;
+}
+
+.profiles-text {
+  display: flex;
+  gap: 90px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.profile-images {
+  border: 1px solid #3b3838;
+
+}
+
+.profiles-keren {
+  padding-left: 10px;
+}
+
+.profiles-feuille {
+  display: flex;
+  flex-direction: row;
+  width: 0px;
+  border-radius: 25px;
+
+}
+
+.classe {
+  display: flex;
+  gap: 600px;
+  padding-top: 80px;
+  overflow-x: auto;
+}

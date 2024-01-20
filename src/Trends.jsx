@@ -24,6 +24,7 @@ export default function Trend(){
               <div>
                 <span>More ...</span>
               </div>
+            
               <div>
                 <span>© 2021 Twitter, Inc.</span>
               </div>
