@@ -37,7 +37,7 @@ function App() {
 
   //   const  [ nav, setNav] = useState ([])
   //   const handlesumit = (e) => {
-  //     e.preventDefault()
+  //     e.OnMouseUp()
   //     const form = e.target 
   //     let data = new FormData(data)
   //     let objNavs = object.formEntries(data)
@@ -114,7 +114,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              {/* <form onSubmit={handlesumit}> */}
+              {/* <form onSubmit={OnMouseUp}> */}
               <Like> </Like>
 
               <File></File>

@@ -20,6 +20,8 @@
 
 .classeun {
   width: 35%;
+  overflow-x: auto;
+
 
 }
 
@@ -462,7 +464,7 @@ input {
   display: flex;
   padding-top: 30px;
   padding-left: 30px;
-  
+
 
 }
 

@@ -60,9 +60,8 @@ export default function Profile() {
                     <div className="profiles-feuille">
                         <img src="src/images/image-3.png" alt="" />
                     </div>
-
-
                 </div>
+
 
             </div>
 
