@@ -20,9 +20,8 @@
 
 .classeun {
   width: 35%;
-  overflow-x: auto;
 
-
+  /* overflow-x: auto; */
 }
 
 .contenairpremiere {
@@ -31,11 +30,11 @@
   color: white;
   gap: 15px;
   width: 25%;
-
 }
 
 .contenairpremiere-1 {
   display: flex;
+  /* display: inline-block; */
   flex-direction: column;
   width: 130%;
   gap: 40px;
@@ -62,7 +61,7 @@
 }
 
 .buton-un {
-  background-color: #1D9BF0;
+  background-color: #0a82be;
   color: #FFFF;
   width: 60%;
   height: 40px;
@@ -248,7 +247,7 @@
 }
 
 .tweeter-deux {
-  background-color: #00aaff;
+  background-color: #0a82be;
   color: #FFFF;
   width: 170%;
   height: 40px;
@@ -483,7 +482,7 @@ input {
   color: #474444;
   padding-top: 5px;
   gap: 10px;
-  /* padding-left: 30px; */
+  padding-left: 30px; 
 }
 
 /* .img-keren{
@@ -548,6 +547,103 @@ input {
 .classe {
   display: flex;
   gap: 600px;
-  padding-top: 80px;
-  overflow-x: auto;
+  padding-top: 30px;
+  /* overflow-x: auto; */
+  width: 30%;
+  height: 50px;
+  padding-left: 10px;
+
+}
+.p{
+  border: 1px solid #4e4c4c;
+height: 4px;
+background-color: #2427bb;
+width: 160%;
+}
+
+.classe-profile {
+  border: 1px solid #4e4c4c;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(195, 67, 195) ;
+  border-radius: 10px;
+
+}
+
+.profile-color {
+  display: flex;
+  gap: 40px;
+  padding-left: 30px;
+  width: 90%;
+
+}
+.classe-profile-1{
+  border: 1px solid #4e4c4c;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(45, 194, 199) ;
+  border-radius: 10px;
+}
+.classe-profile-2{
+  border: 1px solid #4e4c4c;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(227, 208, 7) ;
+  border-radius: 10px;
+}
+.classe-profile-3{
+  
+  border: 1px solid #4e4c4c;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(136, 48, 114) ;
+  border-radius: 10px;
+}
+
+.color-profile-p{
+  color: #FFFF ;
+display: flex;
+justify-content: center;
+padding-top: 35px;
+}
+.texte-prodile{
+  display: flex;
+  gap: 20px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.link{
+  text-decoration: none;
+  color: #FFFF;
+}
+.Explore{
+color: darkorange;
+}
+.img-rose-profile{
+padding-left: 30px;
+  height: 400px;
+  width: 80%;
+  border-radius: 20px;
+}
+.img-keke-profile{
+  padding-left: 30px;
+  height: 400px;
+  width: 30%;
+  border-radius: 20px;
+  padding-bottom: 50px;
+}
+.img-keren{
+  height: 350px;
+  width: 100%;
+  border-radius: 2px;
+}
+.keke-2{
+  height: 400px;
+  width: 95%;
+  border-radius: 2px; 
+  padding-top: 50px;
+}
+.arbre{
+  height: 400px;
+  border-radius: 20px; 
 }

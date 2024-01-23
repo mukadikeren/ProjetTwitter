@@ -23,7 +23,7 @@ export default function File() {
                 </div>
                 <div className="fleure">
                     {/* <img src="src/images/image-3.png" alt="" /> */}
-                    <img src="src/images/Keren.png" alt="" />
+                    <img  className="arbre" src="src/images/eau.png" alt="" />
 
                 </div>
 

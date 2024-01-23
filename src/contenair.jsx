@@ -2,7 +2,7 @@
 import { Children } from "react";
 
 
-function Navlink(props) {
+function Nav_link(props) {
 
   return (
 
@@ -13,6 +13,6 @@ function Navlink(props) {
   )
 }
 
-export default Navlink;
+export default Nav_link;
 
 

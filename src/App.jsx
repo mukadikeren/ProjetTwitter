@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Routes, Route, Link } from 'react-router-dom'
 import Timeline from './Profile'
-
+// import Explore from './Explore'
 import Profil from "./images/Profile-Photo.svg"
 import Cnn from "./images/cnn.svg"
 import Noir from "./images/noir-blanc.svg"
@@ -24,14 +24,13 @@ import Bookmarks from "./images/Bookmarks.svg"
 import Groupe from "./images/Groupe.svg"
 import Options from "./images/Options.svg"
 import Search from "./images/Search.svg"
-import Navlink from './contenair'
+
 import Incone from './Incone'
 import Like from './Like'
 import File from './File'
 import Trend from './Trends'
+import Nav_link from './contenair'
 // import Text from './Text'
-
-
 
 function App() {
 
@@ -53,16 +52,21 @@ function App() {
             <div >
               <img src={Tweeter} alt="" />
             </div>
-            <Link to="/"><Navlink image={Home}>Home</Navlink></Link>
-            <Navlink image={Explore}>Explore</Navlink>
-            <Navlink image={Notification}>Notification</Navlink>
-            <Navlink image={Message}>Message</Navlink>
-            <Navlink image={Bookmarks}>Bookmarks</Navlink>
-            <Navlink image={Groupe}>Groupe</Navlink>
+            <Link to="/" className='link'><Nav_link image={Home}>Home</Nav_link></Link>
 
-            <Link to="/Profile"><Navlink image={Groupe}>Profile</Navlink></Link>
+            <Link to="/Explore" className='link'><Nav_link image={Explore}>Explore</Nav_link></Link>
 
-            <Navlink image={More}>More</Navlink>
+            <Link to="/Notification" className='link'><Nav_link image={Notification}>Notification</Nav_link></Link>
+
+            <Link to="/Message" className='link'><Nav_link image={Message}>Message</Nav_link></Link>
+
+            <Link to="/Bookmarks" className='link'><Nav_link image={Bookmarks}>Bookmarks</Nav_link></Link>
+
+            <Link to="/Liste" className='link'><Nav_link image={Groupe}>Liste</Nav_link></Link>
+
+            <Link to="/Profile" className='link' ><Nav_link image={Groupe}>Profile</Nav_link></Link>
+
+            <Nav_link image={More}>More</Nav_link>
             <div className='bouton'>
               <button className='buton-un'>Tweet</button>
             </div>
@@ -260,7 +264,7 @@ function App() {
           <Trend></Trend>
 
         </div>
-      </div>
+      </div >
 
     </>
   )

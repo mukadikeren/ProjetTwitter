@@ -144,6 +144,7 @@ function Like(props) {
           </div>
         </div>
         <p className="text-lorem">President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.</p>
+        <img  className="arbre" src="src/images/bougie.png" alt="" />
       </div>
       <div className='like'>
         <span>{props.text}</span>
@@ -163,7 +164,12 @@ function Like(props) {
 
           <img src="src/images/React.svg" alt="" />
           <p> {props.retweets} </p>
-          184
+          {/* {like && like [0] && like [0].likes_user_like.?.(
+          <img src="" alt="" />
+          ) */}
+
+          }
+          {/* 184 */}
 
           <img src={Share} alt="" />
           <p>{props.Share}</p>

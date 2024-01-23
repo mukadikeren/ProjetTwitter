@@ -3,13 +3,18 @@ export default function Profile() {
     return (
 
         <div className="Profile-timeline">
-            <div className="img-keren">
+            <div >
                 <div className="profiles-keren">
                     <span> Keren Happuc</span>
                     <p className="profile-color">0 posts</p>
                 </div>
+                <div>
+                    <img className="img-keren" src="src/images/eau.png" alt="" />
+                </div>
+                <div>
+                <img src="src/images/.png" alt="" />
 
-                <img src="src/images/image-3.png" alt="" />
+                </div>
             </div>
 
             <div className="raduis">
@@ -30,6 +35,7 @@ export default function Profile() {
             <div className="profiles-text">
                 <div>
                     <span>Poste</span>
+                    <div className="p"></div>
                 </div>
                 <div>
                     <span>Replies</span>
@@ -49,16 +55,24 @@ export default function Profile() {
                 <div>
                     <span> Let's get you set up</span>
                 </div>
-                <div className="classe">
-                    <div className="profiles-feuille">
-                        <img src="src/images/image-3.png" alt="" />                </div>
-                    <div className="profiles-feuille">
-                        <img src="src/images/image-3.png" alt="" />                </div>
-                    <div className="profiles-feuille">
-                        <img src="src/images/image-3.png" alt="" />                </div>
+                <div>
+                    <div className="profile-color">
 
-                    <div className="profiles-feuille">
-                        <img src="src/images/image-3.png" alt="" />
+                        <div className="classe-profile">   <p className="color-profile-p">+</p> </div>
+                        <div className="classe-profile-1">   <p className="color-profile-p">+</p></div>
+                        <div className="classe-profile-2">   <p className="color-profile-p">+</p></div>
+                        <div className="classe-profile-3">   <p className="color-profile-p">+</p></div>
+                    </div>
+                    <div className="texte-prodile">
+                        <div><span>Follow 5 accounts</span></div>
+                        <div><span>Comptete your Profile</span></div>
+                        <div><span>Follow 3 Topics</span></div>
+                        <div><span>Turn on notification</span></div>
+
+                    </div>
+                    <div className="keke-2">
+                        <img className="img-rose-profile" src="src/images/arbre2.png" alt="" />
+
                     </div>
                 </div>
 
