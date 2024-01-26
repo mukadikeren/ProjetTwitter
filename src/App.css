@@ -184,6 +184,7 @@
 .hover-3:hover {
   fill: #0fc2b6;
 }
+
 .hover-1 {
   fill: #888282;
 }
@@ -192,7 +193,7 @@
   fill: #0823b8;
 }
 
-.liké{
+.liké {
   display: flex;
   width: 4%;
   gap: 10px;
@@ -718,57 +719,152 @@ input {
 
   padding-right: 20px;
 }
-.Explore{
+
+.Explore {
   border: 1px solid #4e4c4c;
-  width: 40%;
+  width: 35%;
   color: #FFFF;
 }
-.nav-1{
+
+.nav-1 {
   border: 1px solid #4e4c4c;
 
 }
-.nav-input{
+
+.nav-input {
   width: 80%;
   border-radius: 20px;
 }
-.input-explore{
+
+.input-explore {
   padding-top: 10px;
   height: 50px;
 }
-textarea{
+
+textarea {
   width: 40%;
   height: 30px;
   background-color: black;
 }
-.trends-explore{
+
+.trends-explore {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
   padding-left: 20px;
 }
-.tex-color{
+
+.tex-color {
   color: #4e4e4e;
 }
-.show-more-explore{
+
+.show-more-explore {
   width: 20%;
   padding-left: 20px;
   padding-top: 30px;
   color: #1D9BF0;
 }
-.img-lunett{
+
+.img-lunett {
   border-radius: 10%;
   padding-top: 10px;
   width: 90%;
   padding-left: 20px;
 }
-.lorem{
+
+.lorem {
   padding-left: 30px;
   padding-top: 20px;
 }
-.cnn-profile{
+
+.cnn-profile {
   display: flex;
   gap: 20px;
   padding-left: 10px;
   padding-top: 10px;
 
+}
+
+.notification {
+  color: #FFFF;
+  border: 1px solid #4e4c4c;
+  width:35% ;
+}
+.notification-1{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #4e4c4c;
+padding-left:10px ;
+
+}
+.notis-text{
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.not-verified{
+  color: #2c2d41;
+
+}
+.notification-2{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #4e4c4c;
+padding-left:10px ;
+}
+.not-tex{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.border{
+  border: 1px solid #4e4c4c;
+width: 10%;
+height: 4px;
+background-color: #176cce;
+}
+.message{
+color: #FFFF;
+border: 1px solid #4e4c4c;
+width: 30%;
+}
+.welcome{
+  padding-top: 70px;
+  padding-left: 50px;
+}
+.msg-bouton{
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.bouton-msg{
+  width: 35%;
+  height: 60px;
+  border-radius:30px ;
+  background-color: #0a82be;
+  color: rgb(253, 253, 253);
+}
+.p-msg{
+  color: #2c2d41;
+  padding-top: 10px;
+}
+.Bookmarks{
+color: #FFFF;
+border: 1px solid #363739;
+width: 30%;
+
+}
+.text-bookmarks{
+justify-content: center; 
+text-align: center; 
+padding-top: 70px;
+}
+.p-boomarks{
+  padding-left: 110px;
+  color: #1e1f2d;
+}
+.p-happuc{
+  color: #30313d;
+}
+.Bookmarks-1{
+  padding-left: 10px;
 }

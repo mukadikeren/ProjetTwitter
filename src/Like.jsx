@@ -129,6 +129,7 @@ function Like(props) {
       <div className="avatar">
 
         <div className="class-trois-1">
+        {/* <Link to="Profile"><img src={Profil} /></Link> */}
 
          <Link to={Profile}> <img src="src/images/cnn.svg" alt="" /> </Link>
           <div className="class-trois-1-cnn-ligne">
