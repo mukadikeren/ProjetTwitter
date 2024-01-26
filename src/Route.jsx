@@ -6,9 +6,9 @@ import { Routes, Route, Link } from 'react-router-dom'
 function Route() {
     return (
         <div>
-            <Route path="/" element={<Timeline />} />
+            {/* <Route path="/" element={<Timeline />} />
             <Route path="/Profile" element={<Profile />} />
-            <Route path="/Explore " element={<Explore />} />
+            <Route path="/Explore " element={<Explore />} /> */}
 
             {/* 
             <Route path="/Notification" element={<Notification />} />

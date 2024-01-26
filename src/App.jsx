@@ -4,13 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Routes, Route, Link } from 'react-router-dom'
 import Timeline from './Profile'
-// import Explore from './Explore'
+// import Liké from './Liké'
+import Explore from './Explore'
 import Profil from "./images/Profile-Photo.svg"
 import Cnn from "./images/cnn.svg"
 import Noir from "./images/noir-blanc.svg"
 import Tweeter from "./images/Twitter.svg"
 import Home from "./images/Home-Fill.svg"
-import Explore from "./images/Explore.svg"
+import ExploreIcon from "./images/Explore.svg"
 import Message from "./images/Messages.svg"
 import More from "./images/More.svg"
 import Media from "./images/Media.svg"
@@ -30,6 +31,8 @@ import Like from './Like'
 import File from './File'
 import Trend from './Trends'
 import Nav_link from './contenair'
+import axios from 'axios'
+import Post from './Post'
 // import Text from './Text'
 
 function App() {
@@ -49,12 +52,12 @@ function App() {
       <div className='contenair-central'>
         <div className='contenairpremiere'>
           <div className='contenairpremiere-1'>
-            <div >
+            <div>
               <img src={Tweeter} alt="" />
             </div>
-            <Link to="/" className='link'><Nav_link image={Home}>Home</Nav_link></Link>
+            <Link to="/" className='link'><Nav_link className="link-1" image={Home}>Home</Nav_link></Link>
 
-            <Link to="/Explore" className='link'><Nav_link image={Explore}>Explore</Nav_link></Link>
+            <Link to="/Explore" className='link'><Nav_link image={ExploreIcon}>Explore</Nav_link></Link>
 
             <Link to="/Notification" className='link'><Nav_link image={Notification}>Notification</Nav_link></Link>
 
@@ -66,10 +69,13 @@ function App() {
 
             <Link to="/Profile" className='link' ><Nav_link image={Groupe}>Profile</Nav_link></Link>
 
+
             <Nav_link image={More}>More</Nav_link>
             <div className='bouton'>
               <button className='buton-un'>Tweet</button>
             </div>
+
+
             <div className='bare-2'>
               <div>
                 <img src={Profil} />
@@ -89,6 +95,8 @@ function App() {
             </div>
           </div>
         </div>
+
+        
         <Routes>
           <Route path='/' element={
             <div className='classeun'>
@@ -101,11 +109,14 @@ function App() {
               </div>
               <div className='profilepremier'>
                 <div>
-                  <img src={Profil} />
+
+                  <Link to="Profile"><img src={Profil} /></Link>
                   {/* <img src="" alt="" /> */}
                 </div>
                 <div className="sticker">
-                  <span className='What-happening'>What's happening?</span>
+                  {/* <span className='What-happening'>What's happening?</span> */}
+                  {/* <textarea name="" id="" cols="30" rows="10"></textarea> */}
+                    <textarea type="text" name="" id=""  placeholder='what s    happening '/>
                   <div className='media'>
                     <Incone image={Media} />
                     <Incone image={Gif} />
@@ -119,12 +130,14 @@ function App() {
                 </div>
               </div>
               {/* <form onSubmit={OnMouseUp}> */}
-              <Like> </Like>
+              <Like></Like>
 
               <File></File>
 
             </div>} />
           <Route path='/Profile' element={<Timeline />} />
+          <Route path="/Explore" element={<Explore />} />
+
         </Routes>
 
 

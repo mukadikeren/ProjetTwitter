@@ -2,17 +2,25 @@ export default function Profile() {
 
     return (
 
+
+
         <div className="Profile-timeline">
-            <div >
-                <div className="profiles-keren">
-                    <span> Keren Happuc</span>
-                    <p className="profile-color">0 posts</p>
-                </div>
+
+            <div className="profiles-keren">
+                <span> Keren Happuc</span>
+                <p className="profile-color">0 posts</p>
+            </div>
+            <div className="image-eau-profile">
+                <img className="img-keren" src="src/images/lunette.png" alt="" />
+            </div>
+            <div className="">
+                <img className="img-keren2" src="src/images/bellaaa.png" alt="" />
+            </div>
+
+            <div>
+
                 <div>
-                    <img className="img-keren" src="src/images/eau.png" alt="" />
-                </div>
-                <div>
-                <img src="src/images/.png" alt="" />
+                    <img src="src/images/.png" alt="" />
 
                 </div>
             </div>
