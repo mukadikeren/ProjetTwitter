@@ -1,8 +1,7 @@
-function Like(props) {
+function Post(props) {
     const { avatar, tittle, text, image } = props
 
     return (
-        // tab.map((tweet, id) => (
         <div className='classetrois' >
             <div className="avatar">
 
@@ -11,7 +10,6 @@ function Like(props) {
                     <img src={avatar} alt="" />
                     <div className="class-trois-1-cnn-ligne">
                         <p className="class-trois-1-cnn"> {tittle} </p>
-
                     </div>
 
                 </div>
@@ -20,11 +18,10 @@ function Like(props) {
             </div>
            
         </div>
-        // ))
 
     )
 }
 
-export default Like;
+export default Post;
 
 
